@@ -1,0 +1,53 @@
+[
+    {
+        "name": "the_hello",
+        "message": "Hello, {}. I am from {}.",
+        "args": [
+            [
+                "guest_obj",
+                "name"
+            ],
+            [
+                "company_obj",
+                "company"
+            ]
+        ]
+    },
+    {
+        "name": "room_ready",
+        "message": "{} {}, and welcome to {}! Room {} is now ready for you. Enjoy your stay, and let us know if you need anything!",
+        "args": [
+            [
+                "the_greeting",
+                "greeting"
+            ],
+            [
+                "guest_obj",
+                "first_name"
+            ],
+            [
+                "company_obj",
+                "company"
+            ],
+            [
+                "guest_obj",
+                "room_number"
+            ]
+        ]
+    },
+    {
+        "name": "happy_working",
+        "message": "happy working at {}!",
+        "args": [
+            [
+                "company_obj",
+                "company"
+            ]
+        ]
+    },
+    {
+        "name": "basic_greeting",
+        "message": "hello, &name.",
+        "args": []
+    }
+]
